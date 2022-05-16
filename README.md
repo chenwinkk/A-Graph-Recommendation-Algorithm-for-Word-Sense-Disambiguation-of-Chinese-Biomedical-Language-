@@ -9,7 +9,7 @@ tensorflow == 2.x
 首先解压 ../data/source_datasets/CHIP-CDN/norm.zip以及train.zip  
 再运行 ../code/Recall.py  模型保存于../checkpoint/recall中  
 再运行 ../code/PredictTextsim.py  
-在该文件中内置了DeepWalk、Node2Vec、SDNE、LINE四种Graph Embedding方法，可依照需求使用  
+在该文件中内置了DeepWalk、Node2Vec、SDNE、LINE、Struc2Vec五种Graph Embedding方法，可依照需求使用  
 再运行 ../code/PredictNum.py 模型保存于../checkpoint/predict_num中  
 最后运行 ../code/Standarlization.py进行标准化  
 最终结果保存于 ../data/output_datasets中  
