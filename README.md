@@ -21,3 +21,6 @@ tensorflow == 2.x
 value = sys.argv[1] 
 params = json.loads(value) 
 predict_ = get_operation_icd_name_batch(params)
+
+## 5/24更新
+上传了web前端以及后端部分，可供参考使用
